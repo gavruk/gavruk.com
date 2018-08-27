@@ -65,6 +65,7 @@ $(function() {
       ['Webpack', 15],
       ['Docker', 15],
       ['Nginx', 15],
+      ['TypeScript', 15],
 
       ['Kafka', 10],
       ['RabbitMQ', 10],
