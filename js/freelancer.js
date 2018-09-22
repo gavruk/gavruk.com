@@ -40,7 +40,7 @@ $(function() {
   WordCloud(document.getElementById('word-cloud'), {
     gridSize: Math.round(40 * $('#word-cloud').width() / 1024),
     weightFactor: function (size) {
-      return Math.pow(size, 1.6) * $('#word-cloud').width() / 1024;
+      return Math.pow(size, 1.4) * $('#word-cloud').width() / 1024;
     },
     color: function (word, weight) {
       return 'white';
@@ -65,7 +65,8 @@ $(function() {
       ['Webpack', 15],
       ['Docker', 15],
       ['Nginx', 15],
-      ['TypeScript', 15],
+
+      ['TypeScript', 14],
 
       ['Kafka', 10],
       ['RabbitMQ', 10],
